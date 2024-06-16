@@ -19,8 +19,9 @@ def eigen_values_vectors(object):
     return eigenvalues, eigenvectors
 
 
-matrix = numpy.array([[2, 10],
-                      [1, 1]])
+matrix = numpy.array([[-5, 0, 3],
+                      [-6, 1, 3],
+                      [-6, 0, 4]])
 eigenvalues, eigenvectors = eigen_values_vectors(matrix)
 print("Eigenvalues:", eigenvalues)
 print("Eigenvectors:\n", eigenvectors)
